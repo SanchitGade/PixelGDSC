@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+    /*********************** NAV-BAR  ************************/
+.NavBar{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    text-decoration: none;
+    color: #000;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+}
+.home{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 1s;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.home:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.OurE{
+    font-size: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 1s;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.OurE:hover{
+    background-color: black;
+    color: whitesmoke;
+    
+}
+.Games{
+    font-size: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 1s;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.Games:hover:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.AboutUs{
+    font-size: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 1s;
+    border-radius: 5px;
+    
+}
+.AboutUs:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+ 
+
+
+             /*********************** ROW -3 ************************/
+.Row-1{
+    height: 80vh;
+    display: flex;
+}
+.Heading{
+    height: 70vh;
+    width: 50vh;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    height: 200px;
+    width: 660px;
+    font-size: 70px;
+    padding-left: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+p{
+    height: 170px;
+    width: 450px;
+    margin-left: 130px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.Img1{
+    height: 90vh;
+    position: absolute;
+    right: 15px;
+}
+
+
+             /*********************** ROW - 3 ************************/
+.Row-3{
+    height: 52vh;
+    background-color: #7bf8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Video{
+    height: 370px;
+    width: 570px;
+    padding-top: 17px;
+    border-radius: 20px;
+}
+.Heading-2{
+  padding-top: 60px;
+  font-family: 'Protest Riot', sans-serif;
+}
+
+
+
+ /*********************** ROW - 4 ************************/
+
+ .Title-1{
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'Protest Riot', sans-serif;
+    text-align: center;
+ }
+ p{
+    padding: 0%;
+
+ }
+ .Row-4{
+    height: 50vh;
+    /* background-color: antiquewhite; */
+    padding-top: 50px;
+ }
+.FirstLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .Icon1{
+    height: 70px;
+    width: 70px;
+    margin-left: 120px ;
+ }
+ .Icon2{
+    height: 70px;
+    width: 70px;
+    margin-left: 100px;
+ }
+ .Icon3{
+    height: 70px;
+    width: 70px;
+    margin-left: 140px;
+ }
+ #One{ 
+    margin-left: 118px;
+}
+#Two{
+    margin-left: 55px;
+}
+#Three{
+    margin-left: 100px;
+}
+
+ .SecondLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .Icon4{
+    height: 70px;
+    width: 70px;
+    margin-left: 120px ;
+ }
+ .Icon5{
+    height: 70px;
+    width: 70px;
+    margin-left: 100px;
+ }
+ .Icon6{
+    height: 70px;
+    width: 70px;
+    margin-left: 140px;
+ }
+ #Four{
+    margin-left: 100px;
+}
+#Five{
+    margin-left: 80px;
+}
+#Six{
+    margin-left: 130px;
+}
+
