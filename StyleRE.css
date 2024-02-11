@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.First{
+    padding-top: 50px;
+    height: 30vh;
+    background-color: aqua;
+}
